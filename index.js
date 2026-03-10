@@ -1,3 +1,7 @@
-console.log('1' === 1); //false
-console.log(1 === true); //false
-console.log("true" === true); //false
+let grade = 67;
+
+if( grade < 50){
+   console.log('Failed');
+}else{
+   console.log('Passed');
+}
