@@ -1,7 +1,10 @@
-let grade = 67;
+let num =0;
 
-if( grade < 50){
-   console.log('Failed');
-}else{
-   console.log('Passed');
+while(num < 10){
+  console.log(num);
+  num++;
+}
+
+for(let i=0; i <10; i ++){
+  console.log(i);
 }
